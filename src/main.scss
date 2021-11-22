@@ -1,0 +1,18 @@
+@import './scss/variables';
+@import './scss/fonts';
+
+body {
+  background: $bg-color;
+  margin: 0;
+}
+
+.wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.img {
+  margin-bottom: 30px;
+  width: 600px;
+}
